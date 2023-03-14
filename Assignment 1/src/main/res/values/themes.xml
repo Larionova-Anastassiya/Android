@@ -1,0 +1,70 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Assignment1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_brown</item>
+        <item name="colorPrimaryVariant">@color/light_brown</item>
+        <item name="colorOnPrimary">@color/background_dark</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/midl_brown</item>
+        <item name="colorSecondaryVariant">@color/midl_brown</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ButtonWhite">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/dark_brown</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonBrown">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:backgroundTint">@color/light_brown</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/midl_brown</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonGrey">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:backgroundTint">@android:color/darker_gray</item>
+
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Title">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/midl_brown</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SubTitle">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:textColor">@color/text_grey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColorHint">@color/text_grey</item>
+        <item name="hintTextColor">@color/text_grey</item>
+        <item name="startIconTint">@color/midl_brown</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+
+    <style name="TextInputEditText" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:background">@drawable/bg_text_field</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+</resources>
