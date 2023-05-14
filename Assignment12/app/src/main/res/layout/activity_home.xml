@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/background_dark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/home_title"
+        style="@style/Title"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/home_sub_title"
+        android:layout_marginBottom="73dp"
+        android:text="@string/home_title"
+        android:textAlignment="center"
+        android:textSize="84px" />
+
+
+    <TextView
+        android:id="@+id/home_sub_title"
+        style="@style/SubTitle"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_welcome"
+        android:layout_marginBottom="27dp"
+        android:text="@string/home_sub_title"
+        android:textAlignment="center"
+        android:textSize="54px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_welcome"
+        style="@style/SubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+
+        android:layout_above="@+id/btn_next"
+        android:layout_marginBottom="14dp"
+        android:text="@string/text_welcome"
+        android:textAlignment="center"
+        android:textSize="44px" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next"
+        style="@style/ButtonBrown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_logout"
+        android:layout_marginTop="95dp"
+        android:layout_marginBottom="0dp"
+        android:text="Next" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_logout"
+        style="@style/ButtonBrown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="95dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/btn_logout" />
+
+
+</RelativeLayout>

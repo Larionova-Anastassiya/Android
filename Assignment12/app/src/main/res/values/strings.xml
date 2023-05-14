@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Assignment 1</string>
+    <string name="started_title">Coffee Tech welcomes you!</string>
+    <string name="started_sub_title">
+        Have time to buy the most harmonious drinks with environment full of technologies in the new coffee tech!
+        Join our app!
+
+        <br><b>Login</b> If you already have an account.</br>
+        <br><b>Register</b> to get started with the app.</br>
+    </string>
+    <string name="illustration_img">Illustration Image</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="login_title">Login to app.</string>
+    <string name="login_sub_title">
+        <font color="#8a3f17"><b>Login</b></font> If you already have an account.
+    </string>
+    <string name="login_email">Your email or username</string>
+    <string name="login_password">Your password</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <string name="login_havent_account">
+        I don\'t have an account:  <font color="#fb6703"><b>Register</b></font>
+    </string>
+    <string name="register_title">Create an account</string>
+    <string name="register_sub_title">
+        <font color="#8a3f17"><b>Register</b></font> to get started with the app.
+    </string>
+    <string name="register_fullname">Your fullname</string>
+    <string name="register_email">Your email</string>
+    <string name="register_username">Your username</string>
+    <string name="register_confirm_password">Confirm password</string>
+    <string name="register_have_account">
+        I already have an account <font color="#fb6703"><b>Login</b></font>
+    </string>
+    <string name="home_title">Coffee Tech!</string>
+    <string name="home_sub_title">Welcome to our app!</string>
+    <string name="btn_logout">LOGOUT</string>
+
+    <string name="text_welcome"> In our application you can find out information about us, our features, interesting facts about coffee, learn about our technologies and menus.</string>
+    <string name="profile">Profile</string>
+    <string name="setting">Setting</string>
+    <string name="notifications">Notifications</string>
+    <string name="others">Others</string>
+    <string name="about_us">About Us</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
